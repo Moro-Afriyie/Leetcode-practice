@@ -21,7 +21,7 @@ const ROMAN_NUMERALS = {
 var romanToInt = function (s) {
 	let i = 0;
 	let sum = 0;
-	if (s.legnth === 0) {
+	if (s.length === 0) {
 		return sum;
 	}
 	while (i < s.length) {
